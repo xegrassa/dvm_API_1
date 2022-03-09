@@ -20,7 +20,7 @@ python main
 
 Если не было ошибок то вывод должен быть примерно как ниже
 
-![img](https://user-images.githubusercontent.com/52129535/157416622-de36728e-85da-45cb-ab09-d7644c6578a8.png)
+![img](https://user-images.githubusercontent.com/52129535/157422013-56ee74c4-c70f-4157-8dff-052013d35653.png)
 
 ***
 ## Built With
