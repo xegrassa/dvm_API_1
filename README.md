@@ -1,9 +1,8 @@
-# Weather in terminal
+# Погода в терминале
 
 Вывод погоды в терминале для 3 офисов. (**Проект учебный**)
-***
 
-### Installing
+### Установка
 
 Клонируйте проект и установите зависимости командами ниже.
 
@@ -15,15 +14,14 @@ pip install -r requirements.txt
 
 После находясь в корне проекта запустите проект
 ```
-python -m main
+python main.py
 ```
 
 Если не было ошибок то вывод должен быть примерно как ниже
 
 ![img](https://user-images.githubusercontent.com/52129535/157422013-56ee74c4-c70f-4157-8dff-052013d35653.png)
 
-***
-## Built With
+## Зависимости
 
 * [Python 3.10](https://www.python.org/)
 * [Requests](https://docs.python-requests.org/en/latest/)
