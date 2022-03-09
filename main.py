@@ -1,12 +1,21 @@
 import requests
 
-URL = 'https://wttr.in/san%20francisco?nTqu&lang=en'
+URLS = (
+    'https://wttr.in/london',
+    'https://wttr.in/череповец',
+    'https://wttr.in/svo'
+)
 
 
 def main():
-    r = requests.get(URL)
-    r.raise_for_status()
-    print(r.text)
+    payloads = {
+        'lang': 'ru',
+        'm': '',
+    }
+    for url in URLS:
+        r = requests.get(url, params=payloads)
+        r.raise_for_status()
+        print(r.text)
 
 
 if __name__ == '__main__':
