@@ -1,12 +1,8 @@
-# Project Title
+# Weather in terminal
 
-Вывод погоды в терминале 
+Вывод погоды в терминале для 3 офисов. (**Проект учебный**)
 ***
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-***
 ### Installing
 
 Клонируйте проект и установите зависимости командами ниже.

@@ -1,21 +1,20 @@
 import requests
 
-URLS = (
-    'https://wttr.in/london',
-    'https://wttr.in/череповец',
-    'https://wttr.in/svo'
-)
+OFFICES = ('london', 'череповец', 'svo')
 
 
 def main():
-    payloads = {
+    url_params = {
+        'nTqm': '',
         'lang': 'ru',
-        'm': '',
     }
-    for url in URLS:
-        r = requests.get(url, params=payloads)
-        r.raise_for_status()
-        print(r.text)
+    url_template = 'https://wttr.in/{}'
+    for office in OFFICES:
+        url = url_template.format(office)
+
+        response = requests.get(url, params=url_params)
+        response.raise_for_status()
+        print(response.text)
 
 
 if __name__ == '__main__':
